@@ -48,12 +48,26 @@ body{
     height: 24%;
     border-radius: 10px 10px 10px 10px;
 }
-.container__box__functions{
+.icons__box{
+    width: 80%;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
-.icon{
-    width: 10px;
-    height: 10px;
-    background: var(--very-dark-blue);
+.icons__box--container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 3.8rem;
+    border-radius: 8px;
+    background-color: var(--very-dark-blue);
+}
+.document{
+    width: 1.8rem;
+}
+.folder{
+    width: 2rem;
+}
+.upload{
+    width: 2.4rem;
 }
